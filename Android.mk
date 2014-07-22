@@ -10,6 +10,7 @@ LOCAL_MODULE:= binderkicker
 LOCAL_MODULE_TAGS:= optional
 
 LOCAL_SHARED_LIBRARIES := \
-    libbinder 
+    libbinder \
+    libutils
 
 include $(BUILD_EXECUTABLE)
